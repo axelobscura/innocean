@@ -30,3 +30,21 @@ body {
 .entrada h2:hover {
   color: #ffffff;
 }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 1s;
+  font-weight: 100;
+  color: #ffffff;
+}
