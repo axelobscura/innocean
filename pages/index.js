@@ -1,15 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Layout from '../components/layout'
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>INNOCEAN MÉXICO</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet" /> 
-      </Head>
-
+    <Layout>
       <div className="entrada">
         <Link href="/about" as={process.env.BACKEND_URL + '/about'}>
           <img src="/images/logo-blanco.png" alt="" title="" />
@@ -22,7 +17,7 @@ export default function Home() {
           </h2>
         </Link>
       </div>
-    </div>
+    </Layout>
     
   )
 }
