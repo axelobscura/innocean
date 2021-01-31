@@ -16,6 +16,7 @@ export default function Home() {
             </span>
           </h2>
         </Link>
+        <p style={{ textAlign: 'center', color: '#fff'}}>En INNOCEAN Worldwide México creemos en proporcionar una gama completa de servicios<br/>con un enfoque claro para entregar valor a todos nuestros clientes.</p>
       </div>
     </Layout>
     
